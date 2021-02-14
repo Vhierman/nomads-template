@@ -1,5 +1,5 @@
 body {
-    background-color: #E4E6EB;
+    background-color: #ffffff;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -118,7 +118,7 @@ header {
 }
 } 
 
-
+//Content
 .section-popular-content {
     .section-popular-travel {
         .card-travel {
@@ -153,6 +153,7 @@ header {
     }
 }
 
+//Network
 .section-networks {
     background-color: #fff;
     margin-top: -170px;
@@ -162,10 +163,97 @@ header {
     h2 {
         font-family: 'Playfair Display',serif;
         font-weight: bold;
+        font-size: 40px;
     }
-
+    p {
+        font-size: 18px;
+    }
     img {
         max-width: 100%;
     }
 }
 
+//Testimonial
+.section-testimonial-heading {
+    background: linear-gradient(#ffffff 0%,#c8ccd8 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 300;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 180px;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started {
+        background-color:#FF7D01;
+        color: #fff;
+
+        &:hover {
+        background-color:#E59E5B;
+        color: #fff;
+        }
+    }
+
+    .btn-need-help {
+        background-color:#f2f2f2;
+        color: #c3c3c3;
+
+        &:hover {
+        background-color:#41ff5a;
+        color: #928686;
+        }
+    }
+}
+
+//Footer
+.section-footer {
+    a {
+        color: #071c4d;
+        text-decoration: none;
+    }
+}
+
+.container-fluid {
+    text-align: center;
+}
